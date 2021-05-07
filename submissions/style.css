@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700");
-/* @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,700"); */
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,700");
 
+.col h2{
+    color: white;
+}
 #dates{
     margin: 0 auto;
     width: 70%;
@@ -37,25 +40,25 @@
     color: #ffffff;
     font-size: 1.1em;
 }
-.card-img{
+card .card-img{
     height: 600px;
     width: auto;
 }
 
 @media (max-width: 992px){
-    .card-img   {    height: 400px;     }
+    card .card-img   {    height: 400px;     }
     .first      {    padding: 10% 0;    }
     #dates      {    width: 100%;       }
 }
 
 @media (max-width: 767px){
-    .card-img   {    height: 400px;     }
+    card .card-img   {    height: 400px;     }
     .first      {    padding: 17% 0;    }
     #dates      {    width: 100%;       }
 }
 
 @media (max-width: 567px) {
-    .card-img   {   height: 250px;      }
+    card .card-img   {   height: 250px;      }
     .first      {   padding: 15% 0;     }
     .first > h1 {   font-size: 2em;     }
     .first > p  {   font-size: 0.8em;   }
