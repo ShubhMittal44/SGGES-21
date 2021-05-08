@@ -1,0 +1,358 @@
+body
+{
+    background-color: #faf8f8;
+    
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.pic img{
+    
+    padding-left: 43%;
+    max-width: 55%;
+    height: auto;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 1px;
+    padding-bottom: 20px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; 
+    
+    opacity: 80%;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+}
+nav li a{
+    line-height: 38px;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    color: rgb(228, 13, 13);
+    text-shadow: 1px 1px 1px rgb(15, 13, 13);
+}
+nav li a:hover {
+    background-color: rgb(195, 214, 231);
+    color: rgb(12, 11, 11);
+
+}
+.logo img {
+    height: 70px;
+    padding-top: 20px;
+    margin-left: -90px;
+}
+.menu {
+    list-style: none;
+    /*remove the bullets from the list*/
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.menu li a {
+    height: 40px;
+    line-height: 53px;
+    margin: 0.5px;
+    text-decoration: none;
+    padding: 0px 10px;
+    display: flex;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: rgb(230, 43, 43);
+}
+.table {
+    width: 900px;
+    justify-content: space-around;
+    border: 2px solid #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    background-image: url("https://github.com/ShubhMittal44/SGGES-21/blob/main/Home_page/vit.jpeg?raw=true");
+    color: white;
+    background-size: 1460px ;
+    font-size: 8px;
+    margin-top: 0px;
+    padding-left: 60px;
+    padding-top: 80px;
+    padding-bottom: 400px;
+}
+
+.me {
+    font-family:Arial Black;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left:8px;
+}
+
+.my {
+    color: #141A2E;
+    font-family: Bahnschrift SemiConden;
+    font-size: 40px;
+}
+
+.name-top {
+    text-align: center;
+    font-family: Bahnschrift Condensed;
+    font-size: 29px;
+}
+
+.top-images {
+    display: flex;
+    justify-content: center;
+}
+
+.top-left {
+    cursor: pointer;
+    height: 120px;
+    width: 400px;
+    border: 5px solid white;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-right: 40px;
+    padding-right: 90px;
+    padding-left: 80px;
+}
+
+.top-left:hover {
+    transition: at ease 0.5s;
+    box-shadow: 3px 3px 8px #064746;
+}
+
+.top-right {
+    cursor: pointer;
+    width: 250px;
+    height: 120px;
+    border: 5px solid white;
+    padding-top: 40px;
+    padding-bottom: 6px;
+    padding-right: 100px;
+    padding-left: 70px;
+}
+
+.top-right:hover {
+    transition: at ease 0.5s;
+    box-shadow: 3px 3px 8px #064746;
+}
+
+.bottom-images {
+    display: flex;
+    justify-content: center;
+}
+
+.Img1 {
+    height: auto;
+    width: 250px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-right: 20px;
+    border: 5px solid white;
+}
+
+.Img1:hover {
+    transition: at ease 0.5s;
+    box-shadow: 3px 3px 8px #064746;
+}
+
+.Img2 {
+    height: auto;
+    width: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 30px;
+    margin-left: 17px;
+    border: 5px solid white;
+}
+
+.Img2:hover {
+    transition: at ease 0.5s;
+    box-shadow: 3px 3px 8px #064746;
+}
+
+.Img3 {
+    height: auto;
+    width: 255px;
+    padding-right: 65px;
+    padding-left: 65px;
+    margin-left: 10px;
+    border: 5px solid white;
+}
+
+.Img3:hover {
+    transition: at ease 0.5s;
+    box-shadow: 3px 3px 8px #064746;
+}
+
+.sponsors {
+    background-color: lightgray;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*body {
+    margin: 0px;
+    padding: 0px;
+    font: Arial;
+}*/
+
+#main {
+    width: 100%;
+    height: 100px;
+    position: sticky;
+}
+
+/*nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 1px;
+    padding-bottom: 40px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+}*/
+
+.logo img {
+    height: 70px;
+    padding-top: 20px;
+    margin-left: -100px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.menu li a {
+    height: 40px;
+    line-height: 53px;
+    margin: 0.5px;
+    text-decoration: none;
+    padding: 0px 10px;
+    display: flex;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.hey img {
+    height: 75px;
+    width: 230px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+       .gif img {
+            width: 80px;
+            height: 80px;
+            margin-left: 40px;
+            padding-top: 20px;
+        }
+        
+        .menu li a:hover {
+            color: #EF3C43;
+            transition: all ease-in-out 0.5s;
+        }
+        
+        .ending {
+            background-color: #141a2e;
+            display: flex;
+            padding-top: 110px;
+            justify-content: space-around;
+        }
+        
+        .ending-img {
+            height: 51.26px;
+            width: 200px;
+        }
+        
+        .lowest {
+            background-color: #141a2e;
+            color: grey;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom:40px;
+        }
+        
+        .social-media {
+            justify-content: center;
+            padding-right: 250px;
+            padding-top: 0;
+        }
+        
+        .like {
+            background-color: #141a2e;
+            font-family: Bahnschrift Condensed;
+        }
+        
+        .TAMIL {
+            color: #ea0763;
+            width: 300px;
+            height: 30px;
+            padding-right:37px;
+        }
+        
+        .INDIA {
+            color: #ea0763;
+            width: 300px;
+            height: 30px;
+        }
+        
+        h6 {
+            width: 330px;
+            height: 30px;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 25px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+        p {
+            width: 296px;
+            height: 43px;
+        }
+        
+        p a {
+            text-decoration: none;
+        }
+        
+        .reserve {
+            padding-left: 150px;
+            width: 750px;
+            height: 24px;
+            padding-top:5px;
+            padding-bottom:20px;
+        }
+        
+        .text3 a:hover {
+            color: #ea0763;
+        }
+        .vellore:hover{
+            color:#EF3C43;
+            text-decoration: none;
+            
+        }
+        .vellore{
+            color:grey;
+            padding-left: 40px;
+        }
