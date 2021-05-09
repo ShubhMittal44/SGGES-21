@@ -13,15 +13,15 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed !important;
     top: 1px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     right: 0;
     left: 0;
     width: 100%;
     background-color: #e7e4e4;     
     opacity: 1;
     box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+    padding-right: 9%;
 }
 nav li a{
     line-height: 38px;
@@ -61,7 +61,19 @@ nav li a:hover {
 }
 
 /************************************/
+div.card-title{
+    color:rgb(247, 241, 243);
+    font-weight: 100;
+    font-size: 20;
+    margin-top: 0%;
+}
 
+div.card-text{
+    color:rgb(247, 241, 243);
+    font-weight: 850;
+    font-size: 30;
+    margin-top: 0%;
+}
 .col h2{
     color: white;
 }
@@ -90,9 +102,16 @@ nav li a:hover {
     border-radius: 5px;
 }
   
+/* .card-img-overlay{
+    position: relative;
+    background: url('../assets/vitn.png') left center no-repeat;
+    background-size: cover;
+    height: 400px;
+    
+} */
 .first{
     text-align: center; 
-    padding: 15% 0;
+    padding: 10% 0;
 }
 .first > h1{
     color: #ffffff;
@@ -103,29 +122,41 @@ nav li a:hover {
     color: #ffffff;
     font-size: 1.1em;
 }
-card .card-img{
+.card .card-img{
     height: 600px;
     width: auto;
 }
 
 @media (max-width: 992px){
-    card .card-img   {    height: 400px;     }
-    .first      {    padding: 10% 0;    }
+    .card .card-img   {    height: 400px;     }
+    .first      {    padding: 5% 0;    }
     #dates      {    width: 100%;       }
 }
 
 @media (max-width: 767px){
-    card .card-img   {    height: 400px;     }
-    .first      {    padding: 17% 0;    }
+    .card .card-img   {    height: 400px;     }
+    .first      {    padding: 7% 0;    }
     #dates      {    width: 100%;       }
+
 }
 
 @media (max-width: 567px) {
-    card .card-img   {   height: 250px;      }
-    .first      {   padding: 15% 0;     }
+    .card .card-img   {   height: 250px;      }
+    .first      {   padding: 0;     }
     .first > h1 {   font-size: 2em;     }
     .first > p  {   font-size: 0.8em;   }
     #dates      {    width: 100%;       }
+    div.card-title{
+        font-weight: 300;
+        font-size: 14;
+    }    
+    div.card-text{
+        font-weight:600;
+        font-size: 18;
+    }
+    .card-img-overlay{
+        padding: 0.4rem;
+    }
 }
 
 body {
@@ -254,12 +285,13 @@ h4, .h4 {
     z-index: 99; 
     border: none; 
     outline: none; 
-    color: white; 
     cursor: pointer; 
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
   
 #myBtn:hover {
-      fill: #141A2E;
+      fill: #000000;
+      background-color: white;
 }
 
 
