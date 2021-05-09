@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,700");
 body
 {
     background-color: #faf8f8;
@@ -18,16 +19,16 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: fixed !important;
     top: 1px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     right: 0;
     left: 0;
     width: 100%;
-    background-color: #e7e4e4; 
-    
-    opacity: 80%;
+    background-color: #e7e4e4;     
+    opacity: 1;
     box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+    padding-right: 9%;
 }
 nav li a{
     line-height: 38px;
@@ -39,10 +40,12 @@ nav li a{
     text-shadow: 1px 1px 1px rgb(15, 13, 13);
 }
 nav li a:hover {
-    background-color: rgb(195, 214, 231);
-    color: rgb(12, 11, 11);
-
+    color: rgb(8, 8, 65);
 }
+
+
+
+
 .logo img {
     height: 70px;
     padding-top: 20px;
@@ -55,7 +58,6 @@ nav li a:hover {
     padding-top: 20px;
     padding-left: 10px;
 }
-
 .menu li a {
     height: 40px;
     line-height: 53px;
@@ -63,104 +65,33 @@ nav li a:hover {
     text-decoration: none;
     padding: 0px 10px;
     display: flex;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 500;
     letter-spacing: 0.5px;
     color: rgb(230, 43, 43);
 }
 
+/**************************************************************************************************/
 
 .card-title{
     color:rgb(247, 241, 243);
-    font-weight: 150;
-    font-size: 100;
+    font-weight: 100;
+    font-size: 20;
+    margin-top: 0%;
+}
+
+.card-text{
+    color:rgb(247, 241, 243);
+    font-weight: 850;
+    font-size: 30;
+    margin-top: 0%;
 }
 .padding-left{
     padding-left: 14rem;
   }
   
-#main-menu .nav-bar { list-style:none; width: 100%; background-color: #e7e4e4; height:60px; opacity: 80%;}
-  #main-menu .nav-bar li { display:inline; padding:0 10px;   }
-  
 
-#main-menu .nav-bar li a {
-  line-height: 38px;
-  text-decoration: none;
-  padding-left: 7px;
-  padding-right: 5px;
-  text-transform: uppercase;
-  color: rgb(228, 13, 13);
-    text-shadow: 1px 1px 1px rgb(15, 13, 13);
-    
-}
 
-#main-menu .nav-bar li a:hover {
-    background-color: rgb(195, 214, 231);
-    color: rgb(12, 11, 11);
-   
-}
-
-.nav-bar .nav-button-home a { background:url("") no-repeat 0px -2px transparent; }
-
-.nav-bar .nav-button-Services a { background:url("") no-repeat 0px -2px transparent; }
-
-.nav-bar .nav-button-RateCard a { background:url("") no-repeat 0px -2px transparent; }
-
-.nav-bar .nav-button-Aboutus a { background:url("") no-repeat 0px -2px transparent; }
-
-.nav-bar .nav-button-Contactus a { background:url("") no-repeat 0px -2px transparent; }
-
-.nav-bar .nav-button-Login a { background:url("") no-repeat 0px -2px transparent; }
-  .our-team {
-    padding: 30px 0 40px;
-    margin-bottom: 30px;
-    background-color: white;
-    text-align: center;
-    overflow: hidden;
-    position: relative;  }
-.h11
-{
-    color: violet;
-    padding: 2%;
-}
-.p1
-{
-    color: violet;
-   padding: 2%;
-}
-.h22
-{
-    color: violet;
-    padding: 2%;
-}
-.p2
-{
-    color: violet;
-    padding: 2%;
-   
-}
-.h33
-{
-    color: violet;
-    padding: 2%;
-}
-.p3
-{
-    color: violet;
-    padding: 2%;
-   
-}
-.h44
-{
-    color: violet;
-    padding: 2%;
-}
-.p4
-{
-    color: violet;
-    padding: 2%;
-   
-}
 .one11
 {
     display: flex;
@@ -192,3 +123,21 @@ nav li a:hover {
  font-weight: 600;
 
 }
+
+@media (max-width: 767px) {
+    .button {
+        font-size: 13px;
+        padding: 9px 24px;
+    }
+}
+
+.button:hover {
+    background: #11264B;
+    color: #fff;
+}
+
+body, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
+  }
