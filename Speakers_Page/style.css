@@ -13,56 +13,109 @@ body
     height: auto;
     
 }
-.card-title{
-    color:rgb(247, 241, 243);
-    font-weight: 150;
-    font-size: 100;
-}
+
 .padding-left{
     padding-left: 14rem;
   }
   
 
-  #main-menu .nav-bar { list-style:none; width: 100%; background-color: #e7e4e4; height:60px; opacity: 75%;}
-  #main-menu .nav-bar li { display:inline; padding:0 10px;   }
-  
-
-#main-menu .nav-bar li a {
-  line-height: 38px;
-  text-decoration: none;
-  padding-left: 7px;
-  padding-right: 5px;
-  text-transform: uppercase;
-  color: rgb(19, 16, 16);
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed !important;
+    top: 1px;
+    padding-bottom: 10px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e7e4e4;     
+    opacity: 1;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+    padding-right: 9%;
+}
+nav li a{
+    line-height: 38px;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    color: rgb(228, 13, 13);
     text-shadow: 1px 1px 1px rgb(15, 13, 13);
-    
+}
+nav li a:hover {
+    color: rgb(8, 8, 65);
 }
 
-#main-menu .nav-bar li a:hover {
-    background-color: rgb(148, 187, 224);
-    clip-path: polygon(3% 10%, 100% 0,100% 100%,70% 93%,0 100%);
-    color: rgb(37, 11, 11);
-   
+
+
+
+.logo img {
+    height: 70px;
+    padding-top: 20px;
+    margin-left: -90px;
+}
+.menu {
+    list-style: none;
+    /*remove the bullets from the list*/
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.menu li a {
+    height: 40px;
+    line-height: 53px;
+    margin: 0.5px;
+    text-decoration: none;
+    padding: 0px 10px;
+    display: flex;
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: rgb(230, 43, 43);
 }
 
-.nav-bar .nav-button-home a { background:url("") no-repeat 0px -2px transparent; }
+/**************************************************************************************************/
 
-.nav-bar .nav-button-Services a { background:url("") no-repeat 0px -2px transparent; }
+.card-title{
+  color:rgb(247, 241, 243);
+  font-weight: 100;
+  font-size: 20;
+  margin-top: 0%;
+}
 
-.nav-bar .nav-button-RateCard a { background:url("") no-repeat 0px -2px transparent; }
+.card-text{
+  color:rgb(247, 241, 243);
+  font-weight: 850;
+  font-size: 30;
+  margin-top: 0%;
+}
+.padding-left{
+  padding-left: 14rem;
+}
 
-.nav-bar .nav-button-Aboutus a { background:url("") no-repeat 0px -2px transparent; }
 
-.nav-bar .nav-button-Contactus a { background:url("") no-repeat 0px -2px transparent; }
 
-.nav-bar .nav-button-Login a { background:url("") no-repeat 0px -2px transparent; }
+.one11
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
   .our-team {
     padding: 30px 0 40px;
     margin-bottom: 30px;
     background-color: white;
+    width: 120%;
     text-align: center;
     overflow: hidden;
-    position: relative;  }
+    position: relative; 
+    border: 2px solid rgb(207, 23, 63);
+  border-radius: 8px;
+    
+  }
   
   .our-team .picture {
     display: inline-block;
@@ -156,4 +209,13 @@ body
     color: #1369ce;
     background-color: black;
   }
+  .name{
+    color: rgb(9, 37, 121);
+    font-weight: 800;
+  }
+  .country{
+    color: rgb(27, 26, 26);
+    font-weight: 600;
+  }
+
  
