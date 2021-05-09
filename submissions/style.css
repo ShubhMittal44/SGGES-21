@@ -60,6 +60,9 @@ nav li a:hover {
 
 /************************************/
 
+.carousel-item img{
+    object-fit: cover;
+}
 div.card-title{
     color:rgb(247, 241, 243);
     font-weight: 100;
