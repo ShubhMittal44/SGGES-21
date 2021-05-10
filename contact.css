@@ -7,7 +7,24 @@ body
 
 }
 /*********** Photo Carousel Styles ************/
+.logo img {
+    height: 90px;
+    padding-top: 10px;
+    margin-left: -90px;
+    padding-bottom: 7px;
+}
 
+.container-fluid{
+    background-color: rgb(231, 241, 238);
+    
+}
+nav li a{
+    font-size: 130%;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: rgb(9, 119, 77);
+    text-shadow: 1px 1px 1px rgb(6, 107, 11);
+}
 .first{
     text-align: center; 
     padding: 11% 0;
