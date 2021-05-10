@@ -148,10 +148,18 @@ div.card-text{
 
 /*********** Important Dates Styles ************/
 
+td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2%;
+}
+
 #dates{
     margin: 0 auto;
     width: 70%;
 }
+
 @media (max-width: 992px){
     #dates{    
         width: 100%;       
@@ -168,7 +176,11 @@ div.card-text{
     #dates{    
         width: 100%;       
     }
+    td, tfoot, th, thead, tr {
+        padding: 4%;
+    }
 }
+
 /*********** Topics of Research Styles ************/
 
 .schedule-content {
@@ -226,7 +238,7 @@ div.card-text{
 /*********** Other Styles ************/
 
 body {
-    color: #797979;
+    background: url('../assets/309051.jpg');
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -307,12 +319,6 @@ button:focus {
         font-size: 13px;
         padding: 9px 24px;
     }
-}
-
-body, td, tfoot, th, thead, tr {
-    border-color: inherit;
-    border-style: solid;
-    border-width: 1px;
 }
 
 /*********** Go To Top Button Styles ************/
