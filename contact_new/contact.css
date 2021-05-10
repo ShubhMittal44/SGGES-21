@@ -1,14 +1,21 @@
 
+
 body
 {
     background-image: url("309051.jpg");
     font-family: 'Poppins', sans-serif;
    
+   
 
+}
+.navbar
+{
+    padding: 0;
 }
 /*********** Photo Carousel Styles ************/
 #navbarSupportedContent a:hover
-{
+{    padding: 0;
+    margin: 0%;
     color: rgb(21, 94, 153);
 }
 
@@ -17,17 +24,20 @@ body
     padding-top: 10px;
     margin-left: -90px;
     padding-bottom: 7px;
+    background-color: #11264B;
+    color: white;
 }
 
-.container-fluid1{
-    background-color: rgb(231, 241, 238);
+.container-fluid{
+    background-color: #11264B;
+    color: white;
     
 }
 nav li a{
     font-size: 110%;
     font-weight: 500;
     text-transform: uppercase;
-    color: rgb(9, 119, 77);
+    color: #11264B;
     
     
 }
@@ -166,7 +176,7 @@ div.card-text{
 {   text-align: center;
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
+    margin-left: 5%;
     padding: 3%;
 
 }
@@ -279,7 +289,7 @@ body{
 }
 #logo img
 {
-   max-width: 40%;
+   max-width: 60%;
   
 }
 
@@ -312,5 +322,12 @@ body{
       #pl h2:hover{
         color: goldenrod;
       }
+      .ct{
+        margin: 0 20px;
+    }
+    
+    .ct:hover{
+        fill: goldenrod;
+    }
     
      
