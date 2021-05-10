@@ -31,7 +31,7 @@ img{
 {
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: white;
+    text-decoration-color: #141A2E;
 }
 .main3{
     padding: 10px;
@@ -48,22 +48,163 @@ img{
     font-size: 15px;
 }
 .main4{
-    position: absolute;
-    width: 1125px;
-    z-index: 10;
-    top: 63%;
-    left: 22%;
-    margin: -100px 0 0 -150px;
-    padding: 10px;
-    background-color: #11264B;
-}
-.pop{
-    position: absolute;
-    left: 50%;
-    padding: 10px;
-    width:600px;
+    background-color:#bbbbbb;
+    margin: auto;
+    width: 60%;
+    height: 70%;
+    border: transparent;
+    padding: 20px;
     text-align:center;
     position: static;
     color:#EF3C43;
-    background-color:#bbbbbb
+    font-size: 20px;
+}
+.button:hover {
+    background-color: #141A2E;
+}
+.button:active{
+    background-color: #141A2E;
+    box-shadow: 0 5px #666;
+}
+.one
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.card{
+    width: 17rem;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+#navbarSupportedContent a:hover
+{
+    color: rgb(21, 94, 153);
+}
+@media (max-width: 1380px)
+{
+.one
+{   align-items: center;
+   
+    display: flex;
+    flex-direction: column;
+   
+    padding: 2%;
+}
+.col1
+{
+    font-size: larger;
+}
+.card
+{
+    width: 22rem;
+}
+
+}
+
+.logo img {
+    height: 90px;
+    padding-top: 10px;
+    margin-left: -90px;
+    padding-bottom: 7px;
+}
+
+.container-fluid{
+    background-color: rgb(231, 241, 238);
+    
+}
+nav li a{
+    font-size: 130%;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: rgb(9, 119, 77);
+    text-shadow: 1px 1px 1px rgb(6, 107, 11);
+}
+/********Photo Carousel Styles*******/
+.first{
+    text-align: center; 
+    padding: 11% 0;
+}
+
+.first > h1{
+    color: #EF3C43;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.first > p{
+    color: #EF3C43;
+    font-size: 1.1em;
+}
+
+.card .card-img{
+    height: 600px;
+    width: auto;
+}
+
+.carousel-item img{
+    object-fit: cover;
+}
+
+div.card-title{
+    color:rgb(247, 241, 243);
+    font-weight: 100;
+    font-size: 20;
+    margin-top: 0;
+}
+
+div.card-text{
+    color:rgb(247, 241, 243);
+    font-weight: 850;
+    font-size: 30;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+@media (max-width: 992px){
+    .card .card-img{    
+        height: 400px;     
+    }
+    .first{    
+        padding: 5% 0;    
+    }
+}
+
+@media (max-width: 767px){
+    .card .card-img{    
+        height: 400px;     
+    }
+    .first{    
+        padding: 7% 0;    
+    }
+}
+
+@media (max-width: 567px) {
+    .card .card-img{   
+        height: 250px;      
+    }
+    .first{   
+        padding: 0;     
+    }
+    .first > h1{   
+        font-size: 2em;     
+    }
+    .first > p{   
+        font-size: 0.8em;   
+    }
+
+    div.card-title{
+        font-weight: 300;
+        font-size: 14;
+    }    
+    div.card-text{
+        font-weight:600;
+        font-size: 18;
+    }
+    .card-img-overlay{
+        padding: 0.4rem;
+    }
 }
