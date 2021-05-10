@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
 
 body
 {
@@ -8,6 +7,7 @@ body
    
 
 }
+
 
 .sponsor
 {   
@@ -28,7 +28,7 @@ body
 .prim img{
     max-width: 40%;
     padding: .5%;
-    border: solid 5px white;
+    border: solid 5px  gray;
 }
 .secon
 {   text-align: center;
@@ -41,7 +41,7 @@ body
 .secon img{
     max-width: 25%;
     padding: .5%;
-    border: solid 5px white;
+    border: solid 5px  gray;
 }
 body{
     background-color:#F0F0F0;
@@ -56,7 +56,8 @@ body{
 }
 #pl{
     width: 22rem;
-    background-color: gainsboro;
+    background-color: #F5F5F5;
+    border:solid .1rem #EF3C43;
 }
 #pl:hover{
     transform: scale(1.05);
