@@ -26,20 +26,16 @@
 }
 
 /*********** Navbar Styles ************/
-/* .navbar-nav{
-    float: right;
+.navbar-light .nav-link{
+    color: white !important;
 }
-.logo{
-    float: left;
-}*/
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
 .navbar{
     padding: 0;
 } 
-
-#navbarSupportedContent a:hover
-{
-    color: rgb(21, 94, 153);
-}
 
 .logo img {
     height: 65px;
@@ -49,15 +45,27 @@
 }
 
 .container-fluid{
-    background-color: #11264B;
-    
+    background-color: #141A2E;   
+    border-bottom: 2px solid #EF3C43; 
 }
+
 nav li a{
     font-size: 110%;
     font-weight: 500;
     text-transform: uppercase;
-    color: rgb(9, 119, 77);   
+    color: white;   
 }
+
+nav li a:hover{
+    color: white !important;
+    font-weight: 600;
+    border-bottom: 2px solid #EF3C43;
+}
+
+#navbarSupportedContent{
+    margin-left: 35%;
+}
+
 /*********** Photo Carousel Styles ************/
 
 .first{
@@ -100,6 +108,11 @@ div.card-text{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
+@media (max-width: 1199px){
+    #navbarSupportedContent{
+        margin-left: 10%;
+    }
+}
 
 @media (max-width: 992px){
     .card .card-img{    
@@ -107,6 +120,9 @@ div.card-text{
     }
     .first{    
         padding: 5% 0;    
+    }
+    #navbarSupportedContent{
+        margin-left: 0;
     }
 }
 
@@ -116,6 +132,9 @@ div.card-text{
     }
     .first{    
         padding: 7% 0;    
+    }
+    #navbarSupportedContent{
+        margin-left: 0;
     }
 }
 
@@ -143,6 +162,9 @@ div.card-text{
     }
     .card-img-overlay{
         padding: 0.4rem;
+    }
+    #navbarSupportedContent{
+        margin-left: 0;
     }
 }
 
@@ -227,14 +249,6 @@ td, tfoot, th, thead, tr {
     color: white;
 }
 
-.ct{
-    margin: 0 20px;
-}
-
-.ct:hover{
-    fill: goldenrod;
-}
-
 /*********** Other Styles ************/
 
 body {
@@ -295,7 +309,7 @@ h4, .h4 {
     padding: 12px 54px;
     border-radius: 4px;
     color: #242424;
-    border: 1px solid #11264B;
+    border: 1px solid ;
     text-transform: uppercase;
     cursor: pointer;
     -webkit-transition: all 0.3s ease 0s;
@@ -310,7 +324,7 @@ button:focus {
 }
 
 .button:hover {
-    background: #11264B;
+    background: #141A2E;
     color: #fff;
 }
 
@@ -353,6 +367,6 @@ button:focus {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #11264B;
+    background: #141A2E;
     border-radius: 5px;
 }
