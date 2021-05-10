@@ -1,5 +1,5 @@
 body{
-    background-color: #e6d5b8 ;
+    background-color: white ;
 }
 img{
     object-fit: cover;
@@ -16,7 +16,7 @@ img{
     background-repeat: no-repeat;
 }
 .main2{
-    background-color:#bbbbbb;
+    background-color:white;
     margin: auto;
     width: 60%;
     height: 70%;
@@ -26,10 +26,6 @@ img{
     position: static;
     color:#EF3C43;
     font-size: 20px;
-}
-.sub1
-{
-    
 }
 .main3{
     padding: 10px;
@@ -58,6 +54,7 @@ img{
     color:#EF3C43;
     font-size: 20px;
 }
+/****button****/
 .button:focus{
     background-color: #141A2E;
     box-shadow: 0 5px #666;
@@ -65,17 +62,29 @@ img{
 .button:hover {
     background-color: #141A2E;
 }
-#navbarSupportedContent a{
-    color: #EF3C43;
-    font-weight: bold;
-    text-transform: capitalize;
-    text-shadow:1px 1px 1px rgb(15, 13, 13);
-    font-size: 20px;
-}
-
+/*****Navbar********/
 #navbarSupportedContent a:hover
 {
     color: rgb(21, 94, 153);
+}
+.logo img {
+    height: 65px;
+    padding-top: 10px;
+    margin-left: -90px;
+    padding-bottom: 7px;
+}
+
+.container-fluid1{
+    background-color: rgb(231, 241, 238);
+    
+}
+nav li a{
+    font-size: 110%;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(9, 119, 77);
+    
+    
 }
 
 /********Photo Carousel Styles*******/
