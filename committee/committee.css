@@ -226,3 +226,19 @@ div.card-text{
       background-color: #faf8f8;
       padding: 0.1rem;
 }
+
+/*********** Scrollbar Styles ************/
+
+::-webkit-scrollbar {
+    width: 12px;
+    background:#ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #141A2E;
+    border-radius: 5px;
+}
