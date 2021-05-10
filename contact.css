@@ -166,6 +166,7 @@ body{
 #pl{
     width: 22rem;
     background-color: gainsboro;
+    border:solid .1rem #EF3C43
 }
 #pl:hover{
     transform: scale(1.05);
