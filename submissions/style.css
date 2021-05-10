@@ -27,7 +27,34 @@
 
 /*********** Navbar Styles ************/
 
-.pic img{    
+#navbarSupportedContent a:hover{
+    color: rgb(21, 94, 153);
+}
+
+.logo img {
+    height: 90px;
+    padding-top: 10px;
+    margin-left: -90px;
+    padding-bottom: 7px;
+}
+
+.container-fluid{
+    background-color: rgb(231, 241, 238);
+    box-shadow: 5px 10px 30px rgba(222, 241, 236, 0.993);
+}
+
+nav li a{
+    font-size: 130%;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: rgb(9, 119, 77);
+    text-shadow: 1px 1px 1px rgb(6, 107, 11);
+}
+
+.navbar{
+    padding: 0;
+}
+/* .pic img{    
     padding-left: 43%;
     max-width: 55%;
     height: auto;    
@@ -98,7 +125,7 @@ nav li a:hover {
     .navbar{
         justify-content: initial;
     }
-}
+} */
 
 /*********** Photo Carousel Styles ************/
 
@@ -180,7 +207,7 @@ div.card-text{
         font-size: 14;
     }    
     div.card-text{
-        font-weight:600;
+        font-weight: 600;
         font-size: 18;
     }
     .card-img-overlay{
