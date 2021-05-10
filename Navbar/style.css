@@ -1,69 +1,61 @@
-
-body
-{
-    background-color: #faf8f8;
-    
-    font-family: 'Playfair Display', serif;
+body{
+    background-color:#f0f0f0;
     font-family: 'Poppins', sans-serif;
 }
-.pic img{
-    
-    padding-left: 43%;
-    max-width: 55%;
-    height: auto;
-    
+.one
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.card{
+    width: 17rem;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+#navbarSupportedContent a:hover
+{
+    color: rgb(21, 94, 153);
+}
+@media (max-width: 1380px)
+{
+.one
+{   align-items: center;
+   
+    display: flex;
+    flex-direction: column;
+   
+    padding: 2%;
+}
+.col1
+{
+    font-size: larger;
+}
+.card
+{
+    width: 22rem;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 1px;
-    padding-bottom: 40px;
-    right: 0;
-    left: 0;
-    width: 100%;
-    background-color: #e7e4e4; 
+}
+
+.logo img {
+    height: 90px;
+    padding-top: 10px;
+    margin-left: -90px;
+    padding-bottom: 7px;
+}
+
+.container-fluid{
+    background-color: rgb(231, 241, 238);
     
-    opacity: 80%;
-    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
 }
 nav li a{
-    line-height: 38px;
-    text-decoration: none;
-    padding-left: 7px;
-    padding-right: 5px;
+    font-size: 130%;
+    font-weight: 1000;
     text-transform: uppercase;
-    color: rgb(228, 13, 13);
-    text-shadow: 1px 1px 1px rgb(15, 13, 13);
-}
-nav li a:hover {
-    color: rgb(8, 8, 65);
-
-}
-.logo img {
-    height: 70px;
-    padding-top: 20px;
-    margin-left: -90px;
-}
-.menu {
-    list-style: none;
-    /*remove the bullets from the list*/
-    display: flex;
-    padding-top: 20px;
-    padding-left: 10px;
+    color: rgb(9, 119, 77);
+    text-shadow: 1px 1px 1px rgb(6, 107, 11);
 }
 
-.menu li a {
-    height: 40px;
-    line-height: 53px;
-    margin: 0.5px;
-    text-decoration: none;
-    padding: 0px 10px;
-    display: flex;
-    font-size: 1em;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    color: rgb(230, 43, 43);
-}
