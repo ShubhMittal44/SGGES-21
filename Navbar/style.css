@@ -1,61 +1,33 @@
-body{
-    background-color:#f0f0f0;
-    font-family: 'Poppins', sans-serif;
-}
-.one
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 2%;
-}
-.card{
-    width: 17rem;
-}
-.card:hover{
-    transform: scale(1.05);
-}
 #navbarSupportedContent a:hover
 {
     color: rgb(21, 94, 153);
 }
-@media (max-width: 1380px)
-{
-.one
-{   align-items: center;
-   
-    display: flex;
-    flex-direction: column;
-   
-    padding: 2%;
-}
-.col1
-{
-    font-size: larger;
-}
-.card
-{
-    width: 22rem;
-}
-
-}
 
 .logo img {
-    height: 90px;
+    height: 65px;
     padding-top: 10px;
     margin-left: -90px;
     padding-bottom: 7px;
 }
 
-.container-fluid{
+.container-fluid1{
     background-color: rgb(231, 241, 238);
     
 }
 nav li a{
-    font-size: 130%;
-    font-weight: 1000;
+    font-size: 110%;
+    font-weight: 500;
     text-transform: uppercase;
     color: rgb(9, 119, 77);
-    text-shadow: 1px 1px 1px rgb(6, 107, 11);
+    
+    
 }
+
+
+
+
+
+
+
+
 
