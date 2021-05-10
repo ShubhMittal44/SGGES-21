@@ -1,58 +1,58 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700");
-@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,700");
+
 body
 {
-    background-color: #faf8f8;
-    
+    background-image: url('../assets/309051.jpg');    
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
 }
-.pic img{
-    
+.pic img{   
     padding-left: 43%;
     max-width: 55%;
-    height: auto;
-    
+    height: auto;    
 }
-
 .padding-left{
     padding-left: 14rem;
-  }
-
-#navbarSupportedContent a:hover
-{
-    color: rgb(21, 94, 153);
 }
+a{
+    text-decoration: none !important;
+}
+
+
 .navbar{
     padding: 0;
 }
-
+.navbar-light .nav-link{
+    color: white !important;
+}
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
 .logo img {
     height: 65px;
     padding-top: 10px;
     margin-left: -90px;
     padding-bottom: 7px;
 }
-
 .container-fluid{
-    background-color: #11264B;
-    
+    background-color: #141A2E;   
+    border-bottom: 2px solid #EF3C43; 
 }
 nav li a{
     font-size: 110%;
     font-weight: 500;
     text-transform: uppercase;
-    color: rgb(219, 218, 228);
-    
-    
+    color: rgb(219, 218, 228);    
 }
-
 nav li a:hover{
     color: white !important;
     font-weight: 600;
     border-bottom: 2px solid #EF3C43;
 }
-
+#navbarSupportedContent{
+    margin-left: 35%;
+}
 
 /**** Go To Top Button Styles *****/
 
@@ -116,12 +116,21 @@ div.card-text{
     border-radius: 5px;
 }
 
+@media (max-width: 1199px){
+    #navbarSupportedContent{
+        margin-left: 10%;
+    }
+}
+
 @media (max-width: 992px){
     .card .card-img{    
         height: 400px;     
     }
     .first{    
         padding: 5% 0;    
+    }
+    #navbarSupportedContent{
+        margin-left: 0;
     }
 }
 
@@ -131,6 +140,9 @@ div.card-text{
     }
     .first{    
         padding: 7% 0;    
+    }
+    #navbarSupportedContent{
+        margin-left: 0;
     }
 }
 
@@ -159,8 +171,10 @@ div.card-text{
     .card-img-overlay{
         padding: 0.4rem;
     }
+    #navbarSupportedContent{
+        margin-left: 0;
+    }
 }
-
 /**** Important Dates Styles *****/
 
 #dates{
@@ -209,8 +223,6 @@ div.card-text{
     padding-left: 14rem;
   }
   
-
-
 .one11
 {
     display: flex;
