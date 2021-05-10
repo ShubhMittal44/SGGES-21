@@ -15,28 +15,36 @@ body
     
 }
 
+.padding-left{
+    padding-left: 14rem;
+  }
+
 #navbarSupportedContent a:hover
 {
     color: rgb(21, 94, 153);
 }
+.navbar{
+    padding: 0;
+}
 
 .logo img {
-    height: 90px;
+    height: 65px;
     padding-top: 10px;
     margin-left: -90px;
     padding-bottom: 7px;
 }
 
 .container-fluid{
-    background-color: rgb(231, 241, 238);
+    background-color: #11264B;
     
 }
 nav li a{
-    font-size: 130%;
-    font-weight: 1000;
+    font-size: 110%;
+    font-weight: 500;
     text-transform: uppercase;
-    color: rgb(9, 119, 77);
-    text-shadow: 1px 1px 1px rgb(6, 107, 11);
+    color: rgb(219, 218, 228);
+    
+    
 }
 
 /**************************************************************************************************/
@@ -58,7 +66,7 @@ nav li a{
 }
 
 .card .card-img{
-    height: 700px;
+    height: 500px;
     width: auto;
 }
 
@@ -183,7 +191,7 @@ div.card-text{
     flex-direction: row;
     justify-content: space-around;
 }
-.row{
+.row1{
     display: flex;
   background-color: #e0eaee;
   justify-content:center;
@@ -248,7 +256,7 @@ body, td, tfoot, th, thead, tr {
 .prim img{
     max-width: 40%;
     padding: .5%;
-    border: solid 5px white;
+    border: solid 5px  gray;
 }
 .secon
 {   text-align: center;
@@ -261,7 +269,7 @@ body, td, tfoot, th, thead, tr {
 .secon img{
     max-width: 25%;
     padding: .5%;
-    border: solid 5px white;
+    border: solid 5px  gray;
 }
 body{
     background-color:#F0F0F0;
@@ -276,7 +284,8 @@ body{
 }
 #pl{
     width: 22rem;
-    background-color: gainsboro;
+    background-color: #F5F5F5;
+    border:solid .1rem #EF3C43;
 }
 #pl:hover{
     transform: scale(1.05);
@@ -396,3 +405,11 @@ body{
       {
           color: goldenrod;
       }
+
+      .ct{
+        margin: 0 20px;
+    }
+    
+    .ct:hover{
+        fill: goldenrod;
+    }
