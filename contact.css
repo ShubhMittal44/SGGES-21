@@ -6,6 +6,117 @@ body
    
 
 }
+/*********** Photo Carousel Styles ************/
+
+.first{
+    text-align: center; 
+    padding: 11% 0;
+}
+
+.first > h1{
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.first > p{
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+.card .card-img{
+    height: 600px;
+    width: auto;
+}
+
+.carousel-item img{
+    object-fit: cover;
+}
+
+div.card-title{
+    color:rgb(247, 241, 243);
+    font-weight: 100;
+    font-size: 20;
+    margin-top: 0;
+}
+
+div.card-text{
+    color:rgb(247, 241, 243);
+    font-weight: 850;
+    font-size: 30;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+@media (max-width: 992px){
+    .card .card-img{    
+        height: 400px;     
+    }
+    .first{    
+        padding: 5% 0;    
+    }
+}
+
+@media (max-width: 767px){
+    .card .card-img{    
+        height: 400px;     
+    }
+    .first{    
+        padding: 7% 0;    
+    }
+}
+
+@media (max-width: 567px) {
+    .card .card-img{   
+        height: 250px;      
+    }
+    .first{   
+        padding: 0;     
+    }
+    .first > h1{   
+        font-size: 2em;     
+    }
+    .first > p{   
+        font-size: 0.8em;   
+    }
+
+    div.card-title{
+        font-weight: 300;
+        font-size: 14;
+    }    
+    div.card-text{
+        font-weight: 600;
+        font-size: 18;
+    }
+    .card-img-overlay{
+        padding: 0.4rem;
+    }
+}
+
+/*********** Important Dates Styles ************/
+
+#dates{
+    margin: 0 auto;
+    width: 70%;
+}
+@media (max-width: 992px){
+    #dates{    
+        width: 100%;       
+    }
+}
+
+@media (max-width: 767px){
+    #dates{    
+        width: 100%;       
+    }
+}
+
+@media (max-width: 567px) {
+    #dates{    
+        width: 100%;       
+    }
+}
 
 .sponsor
 {   
