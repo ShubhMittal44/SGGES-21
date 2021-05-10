@@ -47,6 +47,33 @@ body
       
       
   }
+
+  nav li a:hover{
+    color: white !important;
+    font-weight: 600;
+    border-bottom: 2px solid #EF3C43;
+}
+
+
+/**** Go To Top Button Styles *****/
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}  
+
+#myBtn:hover {
+      fill: #000000;
+      background-color: #faf8f8;
+      padding: 0.1rem;
+}
   
 
 /**************************************************************************************************/
@@ -260,178 +287,162 @@ div.card-text{
 
 
   .sponsor
-{   
-    display: flex;
-    flex-direction: column;
-
-}
-.prim
-{   text-align: center;
-    display: flex;
-    flex-direction: row;
-   margin-left: 38%;
-   padding: 3%;
-   margin-bottom: 3%;
+  {   
+      display: flex;
+      flex-direction: column;
+  }
+  #knu{
+      max-width: 72%;
+  }
+  #vit{   
+      max-width: 57%;
+  }
+  #nu{
+      max-width: 90%;
+  }
+  .prim
+  {   text-align: center;
+      flex-direction: row;
+      padding: 3%;
+      margin: 0 auto;  
+  }
+  .prim a img{
+      width: 45%;
+      padding: .5%;
+      border: solid 5px  gray;
+  }
+  .secon
+  {   text-align: center;
+      display: flex;
+      flex-direction: row;
+      margin: 0 10%;
+      padding: 3%;
+      justify-content: center;
+  }
+  .secon a img{
+      max-width: 20%;
+      padding: .5%;
+      border: solid 5px  gray;
+  }
+  body{
+      background-color:#F0F0F0;
+      font-family: 'Poppins', sans-serif;
+  }
+  .one
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 2%;
+  }
+  #pl{
+      width: 22rem;
+      background-color: #F5F5F5;
+      border:solid .1rem #EF3C43;
+  }
+  #pl:hover{
+      transform: scale(1.05);
+  }
+  #logo img{
+      max-width:60% ;
+  }
+  .col h4
+      {
+       padding:3%;
+       color:#EF3C43;
+       margin-left: 25%;
+       padding-top: 10% ;
+  }
   
+  @media (max-width: 1199px){
+      .prim img
+      {
+          margin: 0 auto;
+          max-width: 29%;
+          padding: 3%;
+      }
+  }
   
-}
-.prim img{
-    max-width: 40%;
-    padding: .5%;
-    border: solid 5px  gray;
-}
-.secon
-{   text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin-left: 10%;
-    padding: 3%;
-
-}
-.secon img{
-    max-width: 25%;
-    padding: .5%;
-    border: solid 5px  gray;
-}
-body{
-    background-color:#F0F0F0;
-    font-family: 'Poppins', sans-serif;
-}
-.one
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 2%;
-}
-#pl{
-    width: 22rem;
-    background-color: #F5F5F5;
-    border:solid .1rem #EF3C43;
-}
-#pl:hover{
-    transform: scale(1.05);
-}
-#navbarSupportedContent a:hover
-{
-    color: blue;
-}
-#logo img{
-    max-width:60% ;
-}
-.col h4
-    {
-     padding:3%;
-     color:#EF3C43;
-     margin-left: 25%;
-     padding-top: 10% ;
-    }
-@media all and (max-width:900px)
-{
-
-    .prim{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
- 
-    margin: 0;
-
-    }
-    .prim img
-    {
-     margin-left: 18%;
-    text-align: center;
-     max-width: 60%;
-     padding: 3%;
-    }
-    .secon
-    {  
-        text-align: center;
-        display: flex;
-        margin: 0;
-
-        flex-direction: column;
+  @media all and (max-width:900px)
+  {
+      .prim{
+          text-align: center;
+          display: flex;
+          flex-direction: column;    
+          margin: 0;
+      }
+      .prim img
+      {
+          margin: 0 auto;
+          max-width: 40%;
+          padding: 3%;
+      }
+      .secon 
+      {  
+          text-align: center;
+          display: flex;
+          margin: 0;
+          flex-direction: column;      
+      }
+  
+      #knu, #vit, #nu{
+          margin: 0 auto;
+          max-width: 40%;
+          padding: 3%;
+      }   
+      .col p{
+          text-align: center;
+      }
+      .col h4{
+          padding:3%;
+          color:#EF3C43;
+          margin-left: 5%;     
+      }
+      .one{   
+          align-items: center;    
+          display: flex;
+          flex-direction: column;    
+          padding: 2%;        
+      }
+      .col1{
+          font-size: larger;
+      }
+      #pl{
+          width: 22rem;
+      }
+      #foot{
+          text-align: center;
+          display: flex;
+          padding: 1%;
+          flex-direction: column;
+          justify-content: center;
+      }
+      #logo img{
+          max-width: 55%;    
+      }
+  }
       
-    }
-
-    .secon img{
-        margin-left: 18%;
-        max-width: 60%;
-        padding: 3%;
-
-    }
-   
-    .col p
-    {
-        text-align: center;
-    }
-    .col h4
-    {
-     padding:3%;
-     color:#EF3C43;
-    margin-left: 5%;
-     
-    }
-    .one
-{   align-items: center;
-   
-    display: flex;
-    flex-direction: column;
-   
-    padding: 2%;
-}
-.col1
-{
-    font-size: larger;
-}
-#pl
-{
-    width: 22rem;
-}
-#foot{
-    text-align: center;
-    display: flex;
-    padding: 1%;
-    flex-direction: column;
-    justify-content: center;
-}
-#logo img
-{
-   max-width: 40%;
   
-}
-
-}
-    
-
-    
-    .prim img:hover
-      {
-        
-          transform:scale(1.05);
-      }
-      .secon img:hover
-      {
-        
-          transform:scale(1.05);
-      }
-      .icon i:hover
-      {
-          color: goldenrod;
-      }
-      .col h4:hover
-      {
-          color: goldenrod;
-      }
-      .col h2:hover
-      {
-          color: goldenrod;
-      }
-
-      .ct{
-        margin: 0 20px;
-    }
-    
-    .ct:hover{
-        fill: goldenrod;
-    }
+  .prim a img:hover{
+      transform:scale(1.05);
+      box-shadow: 5px 10px 18px #888888;
+      transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
+  }
+  .secon a img:hover{
+      transform:scale(1.05);
+      box-shadow: 5px 10px 18px #888888;
+      transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
+  }
+  .col h4:hover{
+      color: goldenrod;
+  }
+  .col h2:hover{
+      color: goldenrod;
+      cursor: pointer;
+  }
+  .ct{
+      margin: 0 20px;
+  }
+  .ct:hover{
+      fill: goldenrod;
+  }
