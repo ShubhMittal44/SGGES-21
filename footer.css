@@ -113,5 +113,7 @@ font-family: 'Poppins', sans-serif;
       {
           color: goldenrod;
       }
-    
+    .picalign{
+        text-align: center;
+    }
      
