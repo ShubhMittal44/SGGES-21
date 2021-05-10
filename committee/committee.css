@@ -29,9 +29,7 @@ img{
 }
 .sub1
 {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: #141A2E;
+    
 }
 .main3{
     padding: 10px;
@@ -46,6 +44,7 @@ img{
     color:#EF3C43 ;
     border: transparent;
     font-size: 15px;
+    margin: 20px;
 }
 .main4{
     background-color:#bbbbbb;
@@ -59,12 +58,16 @@ img{
     color:#EF3C43;
     font-size: 20px;
 }
+.button:focus{
+    background-color: #141A2E;
+    box-shadow: 0 5px #666;
+}
 .button:hover {
     background-color: #141A2E;
 }
-.button:active{
-    background-color: #141A2E;
-    box-shadow: 0 5px #666;
+#navbarSupportedContent a{
+    color: #EF3C43;
+    font-weight: bold;
 }
 
 #navbarSupportedContent a:hover
