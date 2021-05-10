@@ -26,10 +26,15 @@
 }
 
 /*********** Navbar Styles ************/
-
+/* .navbar-nav{
+    float: right;
+}
+.logo{
+    float: left;
+}*/
 .navbar{
     padding: 0;
-}
+} 
 
 #navbarSupportedContent a:hover
 {
@@ -43,8 +48,8 @@
     padding-bottom: 7px;
 }
 
-.container-fluid1{
-    background-color: rgb(231, 241, 238);
+.container-fluid{
+    background-color: #11264B;
     
 }
 nav li a{
