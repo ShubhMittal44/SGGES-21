@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,700");
 body
 {
     background-color: #faf8f8;
@@ -18,11 +18,40 @@ body
 .padding-left{
     padding-left: 14rem;
   }
+  
 
-  /***************************************************************************************************************/
+  #navbarSupportedContent a:hover
+  {
+      color: rgb(22, 101, 165);
+  }
+  
+  .logo img {
+      height: 65px;
+      padding-top: 10px;
+      margin-left: -90px;
+      padding-bottom: 7px;
+  }
+  
+  .container-fluid{
+    background-color: #11264B;
+      
+  }
+  .navbar{
+      padding: 0;
+  }
+  nav li a{
+      font-size: 110%;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: rgb(9, 119, 77);
+      
+      
+  }
+  
 
+/**************************************************************************************************/
 
-  .first{
+.first{
     text-align: center; 
     padding: 11% 0;
 }
@@ -107,79 +136,6 @@ div.card-text{
         padding: 0.4rem;
     }
 }
-
-/**** Important Dates Styles *****/
-
-#dates{
-    margin: 0 auto;
-    width: 70%;
-}
-@media (max-width: 992px){
-    #dates{    
-        width: 100%;       
-    }
-}
-
-@media (max-width: 767px){
-    #dates{    
-        width: 100%;       
-    }
-}
-
-@media (max-width: 567px) {
-    #dates{    
-        width: 100%;       
-    }
-}
-
-
-
-  /********************************************************************************************************/
-
-  .logo img {
-    height: 90px;
-    padding-top: 10px;
-    margin-left: -90px;
-    padding-bottom: 7px;
-}
-
-.container-fluid{
-    background-color: rgb(231, 241, 238);
-    
-}
-nav li a{
-    font-size: 130%;
-    font-weight: 1000;
-    text-transform: uppercase;
-    color: rgb(9, 119, 77);
-    text-shadow: 1px 1px 1px rgb(6, 107, 11);
-}
-#navbarSupportedContent a:hover
-{
-    color: rgb(21, 94, 153);
-}
-
-/**************************************************************************************************/
-
-.card-title{
-  color:rgb(247, 241, 243);
-  font-weight: 100;
-  font-size: 20;
-  margin-top: 0%;
-}
-
-.card-text{
-  color:rgb(247, 241, 243);
-  font-weight: 850;
-  font-size: 30;
-  margin-top: 0%;
-}
-.padding-left{
-  padding-left: 14rem;
-}
-
-
-
 .one11
 {
   display: flex;
@@ -188,18 +144,17 @@ nav li a{
 }
 
 
-  .our-team {
-    padding: 30px 0 40px;
-    margin-bottom: 30px;
-    background-color: white;
-    width: 120%;
-    text-align: center;
-    overflow: hidden;
-    position: relative; 
-    border: 2px solid rgb(16, 216, 149);
+.our-team {
+  padding: 30px 10px;
+  margin-bottom: 30px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid rgb(207, 23, 63);
   border-radius: 8px;
-    
-  }
+}
   
   .our-team .picture {
     display: inline-block;
@@ -304,8 +259,6 @@ nav li a{
 
 
 
-
-
   .sponsor
 {   
     display: flex;
@@ -325,7 +278,7 @@ nav li a{
 .prim img{
     max-width: 40%;
     padding: .5%;
-    border: solid 5px white;
+    border: solid 5px  gray;
 }
 .secon
 {   text-align: center;
@@ -338,7 +291,7 @@ nav li a{
 .secon img{
     max-width: 25%;
     padding: .5%;
-    border: solid 5px white;
+    border: solid 5px  gray;
 }
 body{
     background-color:#F0F0F0;
@@ -353,7 +306,8 @@ body{
 }
 #pl{
     width: 22rem;
-    background-color: gainsboro;
+    background-color: #F5F5F5;
+    border:solid .1rem #EF3C43;
 }
 #pl:hover{
     transform: scale(1.05);
@@ -473,3 +427,11 @@ body{
       {
           color: goldenrod;
       }
+
+      .ct{
+        margin: 0 20px;
+    }
+    
+    .ct:hover{
+        fill: goldenrod;
+    }
