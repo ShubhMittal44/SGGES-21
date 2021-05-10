@@ -175,34 +175,6 @@ div.card-text{
         margin-left: 0;
     }
 }
-/**** Important Dates Styles *****/
-
-#dates{
-    margin: 0 auto;
-    width: 70%;
-}
-@media (max-width: 992px){
-    #dates{    
-        width: 100%;       
-    }
-}
-
-@media (max-width: 767px){
-    #dates{    
-        width: 100%;       
-    }
-}
-
-@media (max-width: 567px) {
-    #dates{    
-        width: 100%;       
-    }
-}
-
-
-
-
-
 
 /********************************************************************************************************/
 
@@ -434,4 +406,20 @@ body{
 }
 .ct:hover{
     fill: goldenrod;
+}
+
+/*********** Scrollbar Styles ************/
+
+::-webkit-scrollbar {
+    width: 12px;
+    background:#ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #141A2E;
+    border-radius: 5px;
 }
