@@ -170,3 +170,19 @@ div.card-text{
 a{
     text-decoration: none !important;
 }
+
+/*********** Scrollbar Styles ************/
+
+::-webkit-scrollbar {
+    width: 12px;
+    background:#ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #141A2E;
+    border-radius: 5px;
+}
