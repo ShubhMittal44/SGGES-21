@@ -2,45 +2,54 @@
 
 body
 {
-    background-image: url("309051.jpg");
-    font-family: 'Poppins', sans-serif;
-   
-   
+    background-image: url("../assets/309051.jpg");
+    font-family: 'Poppins', sans-serif;  
+}
 
+/*********** Navbar & Photo Carousel Styles ************/
+
+.navbar-light .nav-link{
+    color: white !important;
 }
-.navbar
-{
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+.navbar{
     padding: 0;
-}
-/*********** Photo Carousel Styles ************/
-#navbarSupportedContent a:hover
-{    padding: 0;
-    margin: 0%;
-    color: rgb(21, 94, 153);
-}
+} 
 
 .logo img {
     height: 65px;
     padding-top: 10px;
     margin-left: -90px;
     padding-bottom: 7px;
-    background-color: #11264B;
-    color: white;
 }
 
 .container-fluid{
-    background-color: #11264B;
-    color: white;
-    
+    background-color: #141A2E;   
+    border-bottom: 2px solid #EF3C43; 
 }
+
 nav li a{
     font-size: 110%;
     font-weight: 500;
     text-transform: uppercase;
-    color: #11264B;
-    
-    
+    color: white;   
 }
+
+nav li a:hover{
+    color: white !important;
+    font-weight: 600;
+    border-bottom: 2px solid #EF3C43;
+}
+
+#navbarSupportedContent{
+    margin-left: 35%;
+}
+
+
+
 .first{
     text-align: center; 
     padding: 11% 0;
@@ -69,17 +78,22 @@ nav li a{
 div.card-title{
     color:rgb(247, 241, 243);
     font-weight: 100;
-    font-size: 20;
+    font-size: 20px;
     margin-top: 0;
 }
 
 div.card-text{
     color:rgb(247, 241, 243);
     font-weight: 850;
-    font-size: 30;
+    font-size: 30px;
     margin-top: 0;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+}
+@media (max-width: 1199px){
+    #navbarSupportedContent{
+        margin-left: 10%;
+    }
 }
 
 @media (max-width: 992px){
@@ -89,6 +103,9 @@ div.card-text{
     .first{    
         padding: 5% 0;    
     }
+    #navbarSupportedContent{
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 767px){
@@ -97,6 +114,9 @@ div.card-text{
     }
     .first{    
         padding: 7% 0;    
+    }
+    #navbarSupportedContent{
+        margin-left: 0;
     }
 }
 
@@ -116,218 +136,37 @@ div.card-text{
 
     div.card-title{
         font-weight: 300;
-        font-size: 14;
+        font-size: 14px;
     }    
     div.card-text{
         font-weight: 600;
-        font-size: 18;
+        font-size: 18px;
     }
     .card-img-overlay{
         padding: 0.4rem;
     }
-}
-
-/*********** Important Dates Styles ************/
-
-#dates{
-    margin: 0 auto;
-    width: 70%;
-}
-@media (max-width: 992px){
-    #dates{    
-        width: 100%;       
+    #navbarSupportedContent{
+        margin-left: 0;
     }
 }
-
-@media (max-width: 767px){
-    #dates{    
-        width: 100%;       
-    }
+       
+.contact img{
+        margin: 0 44%;
+        width: 12%;
+}     
+@media (max-width: 567px) {    
+        .contact img{
+            width: 40% !important;
+            margin: 0 30%;
+        }
 }
 
-@media (max-width: 567px) {
-    #dates{    
-        width: 100%;       
-    }
-}
-
-.sponsor
-{   
-    display: flex;
-    flex-direction: column;
-
-}
-.prim
-{   text-align: center;
-    display: flex;
-    flex-direction: row;
-   margin-left: 38%;
-   padding: 3%;
-   margin-bottom: 3%;
-  
-  
-}
-.prim img{
-    max-width: 40%;
-    padding: .5%;
-    border: solid 5px  gray;
-}
-.secon
-{   text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin-left: 5%;
-    padding: 3%;
-
-}
-.secon img{
-    max-width: 25%;
-    padding: .5%;
-    border: solid 5px  gray;
-}
-body{
-    background-color:#F0F0F0;
-    font-family: 'Poppins', sans-serif;
-}
-.one
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 2%;
-}
-#pl{
-    width: 22rem;
-    background-color: #F5F5F5;
-    border:solid .1rem #EF3C43;
-}
-#pl:hover{
-    transform: scale(1.05);
-}
-#navbarSupportedContent a:hover
-{
-    color: blue;
-}
-#logo img{
-    max-width:60% ;
-}
-.col h4
-    {
-     padding:3%;
-     color:#EF3C43;
-     margin-left: 25%;
-     padding-top: 10% ;
-    }
-@media all and (max-width:900px)
-{
-
-    .prim{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
- 
-    margin: 0;
-
-    }
-    .prim img
-    {
-     margin-left: 18%;
-    text-align: center;
-     max-width: 60%;
-     padding: 3%;
-    }
-    .secon
-    {  
+.contact h1{
+        max-width: 640px;
+        margin-right: auto;
+        margin-left: auto;
         text-align: center;
-        display: flex;
-        margin: 0;
-
-        flex-direction: column;
-      
-    }
-
-    .secon img{
-        margin-left: 18%;
-        max-width: 60%;
-        padding: 3%;
-
-    }
-   
-    .col p
-    {
-        text-align: center;
-    }
-    .col h4
-    {
-     padding:3%;
-     color:#EF3C43;
-    margin-left: 5%;
-     
-    }
-    .one
-{   align-items: center;
-   
-    display: flex;
-    flex-direction: column;
-   
-    padding: 2%;
 }
-.col1
-{
-    font-size: larger;
+a{
+    text-decoration: none !important;
 }
-#pl
-{
-    width: 22rem;
-}
-#foot{
-    text-align: center;
-    display: flex;
-    padding: 1%;
-    flex-direction: column;
-    justify-content: center;
-}
-#logo img
-{
-   max-width: 60%;
-  
-}
-
-}
-    
-
-    
-    .prim img:hover
-      {
-        
-          transform:scale(1.05);
-      }
-      .secon img:hover
-      {
-        
-          transform:scale(1.05);
-      }
-      .icon i:hover
-      {
-          color: goldenrod;
-      }
-      .col h4:hover
-      {
-          color: goldenrod;
-      }
-      .col h2:hover
-      {
-          color: goldenrod;
-      }
-      #pl h2:hover{
-        color: goldenrod;
-      }
-      .ct{
-        margin: 0 20px;
-    }
-    
-    .ct:hover{
-        fill: goldenrod;
-    }
-    
-     
