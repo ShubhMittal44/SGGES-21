@@ -54,6 +54,27 @@ nav li a:hover{
 #navbarSupportedContent{
     margin-left: 35%;
 }
+@media (max-width: 1350px){
+    #navbarSupportedContent{
+        margin-left: 26%;
+    }
+}
+@media (max-width: 1220px){
+    #navbarSupportedContent{
+        margin-left: 20%;
+    }
+}
+@media (max-width: 1150px){
+    #navbarSupportedContent{
+        margin-left: 13%;
+    }
+}
+
+@media (max-width: 1050px){
+    #navbarSupportedContent{
+        margin-left: 8%;
+    }
+}
 
 /**** Go To Top Button Styles *****/
 
@@ -117,13 +138,7 @@ div.card-text{
     border-radius: 5px;
 }
 
-@media (max-width: 1199px){
-    #navbarSupportedContent{
-        margin-left: 10%;
-    }
-}
-
-@media (max-width: 992px){
+@media (max-width: 991px){
     .card .card-img{    
         height: 400px;     
     }
