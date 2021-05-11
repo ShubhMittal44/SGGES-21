@@ -96,14 +96,14 @@ nav li a:hover{
 div.card-title{
     color:rgb(247, 241, 243);
     font-weight: 100;
-    font-size: 20;
+    font-size: 20px;
     margin-top: 0;
 }
 
 div.card-text{
     color:rgb(247, 241, 243);
     font-weight: 850;
-    font-size: 30;
+    font-size: 30px;
     margin-top: 0;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
@@ -154,11 +154,11 @@ div.card-text{
 
     div.card-title{
         font-weight: 300;
-        font-size: 14;
+        font-size: 14px;
     }    
     div.card-text{
         font-weight: 600;
-        font-size: 18;
+        font-size: 18px;
     }
     .card-img-overlay{
         padding: 0.4rem;
