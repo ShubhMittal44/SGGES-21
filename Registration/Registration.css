@@ -26,6 +26,7 @@
 }
 
 /*********** Navbar Styles ************/
+
 .navbar-light .nav-link{
     color: white !important;
 }
@@ -96,14 +97,14 @@ nav li a:hover{
 div.card-title{
     color:rgb(247, 241, 243);
     font-weight: 100;
-    font-size: 20;
+    font-size: 20px;
     margin-top: 0;
 }
 
 div.card-text{
     color:rgb(247, 241, 243);
     font-weight: 850;
-    font-size: 30;
+    font-size: 30px;
     margin-top: 0;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
@@ -154,11 +155,11 @@ div.card-text{
 
     div.card-title{
         font-weight: 300;
-        font-size: 14;
+        font-size: 14px;
     }    
     div.card-text{
         font-weight: 600;
-        font-size: 18;
+        font-size: 18px;
     }
     .card-img-overlay{
         padding: 0.4rem;
@@ -168,8 +169,11 @@ div.card-text{
     }
 }
 
-/*********** Registration Details Styles ************/
+/*********** Registration Details Styles ***********/
 
+.section-margin{
+    margin: 50px;
+}
 td, tfoot, th, thead, tr {
     border-color: inherit;
     border-style: solid;
@@ -192,6 +196,9 @@ td, tfoot, th, thead, tr {
     #dates{    
         width: 100%;       
     }
+    .section-margin{
+        margin: 5px;
+    }
 }
 
 @media (max-width: 567px) {
@@ -199,9 +206,16 @@ td, tfoot, th, thead, tr {
         width: 100%;       
     }
     td, tfoot, th, thead, tr {
-        padding: 4%;
+        padding: 3%;
     }
-}
+    .section-margin{
+        margin: 5px;
+    }
+    .section-margin .container{
+        padding-left: 8px;
+    }
+} 
+
 
 /*********** Footer Styles ************/
 
