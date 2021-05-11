@@ -25,6 +25,47 @@
     }
 }
 
+/*********** Navbar Styles ************/
+.navbar-light .nav-link{
+    color: white !important;
+}
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+.navbar{
+    padding: 0;
+} 
+
+.logo img {
+    height: 65px;
+    padding-top: 10px;
+    margin-left: -90px;
+    padding-bottom: 7px;
+}
+
+.container-fluid{
+    background-color: #141A2E;   
+    border-bottom: 2px solid #EF3C43; 
+}
+
+nav li a{
+    font-size: 110%;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;   
+}
+
+nav li a:hover{
+    color: white !important;
+    font-weight: 600;
+    border-bottom: 2px solid #EF3C43;
+}
+
+#navbarSupportedContent{
+    margin-left: 35%;
+}
+
 /*********** Photo Carousel Styles ************/
 
 .first{
@@ -67,6 +108,11 @@ div.card-text{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
+@media (max-width: 1199px){
+    #navbarSupportedContent{
+        margin-left: 10%;
+    }
+}
 
 @media (max-width: 992px){
     .card .card-img{    
@@ -74,6 +120,9 @@ div.card-text{
     }
     .first{    
         padding: 5% 0;    
+    }
+    #navbarSupportedContent{
+        margin-left: 0;
     }
 }
 
@@ -83,6 +132,9 @@ div.card-text{
     }
     .first{    
         padding: 7% 0;    
+    }
+    #navbarSupportedContent{
+        margin-left: 0;
     }
 }
 
@@ -111,15 +163,25 @@ div.card-text{
     .card-img-overlay{
         padding: 0.4rem;
     }
+    #navbarSupportedContent{
+        margin-left: 0;
+    }
 }
 
 /*********** Registration Details Styles ************/
 
+td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2%;
+}
+
 #dates{
     margin: 0 auto;
-    width: 80%;
-    height:180px;
+    width: 70%;
 }
+
 @media (max-width: 992px){
     #dates{    
         width: 100%;       
@@ -136,19 +198,27 @@ div.card-text{
     #dates{    
         width: 100%;       
     }
+    td, tfoot, th, thead, tr {
+        padding: 4%;
+    }
+}
+
+/*********** Footer Styles ************/
+
+.col h2{
+    color: white;
 }
 
 /*********** Other Styles ************/
 
 body {
-    color: #797979;
+    background: url('../assets/309051.jpg');
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.6;
     background-color: #faf8f8 !important;
 }
-
 ul{
     list-style-type: none;
     margin: 0;
@@ -198,7 +268,7 @@ h4, .h4 {
     padding: 12px 54px;
     border-radius: 4px;
     color: #242424;
-    border: 1px solid #11264B;
+    border: 1px solid ;
     text-transform: uppercase;
     cursor: pointer;
     -webkit-transition: all 0.3s ease 0s;
@@ -213,7 +283,7 @@ button:focus {
 }
 
 .button:hover {
-    background: #11264B;
+    background: #141A2E;
     color: #fff;
 }
 
@@ -222,12 +292,6 @@ button:focus {
         font-size: 13px;
         padding: 9px 24px;
     }
-}
-
-body, td, tfoot, th, thead, tr {
-    border-color: inherit;
-    border-style: solid;
-    border-width: 1px;
 }
 
 /*********** Go To Top Button Styles ************/
@@ -262,30 +326,6 @@ body, td, tfoot, th, thead, tr {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #11264B;
+    background: #141A2E;
     border-radius: 5px;
 }
-/*********** Navbar Styles ************/
-#navbarSupportedContent a:hover
-{
-    color: rgb(21, 94, 153);
-}
-
-.logo img {
-    height: 65px;
-    padding-top: 10px;
-    margin-left: -90px;
-    padding-bottom: 7px;
-}
-
-.container-fluid{
-    background-color: rgb(231, 241, 238);
-    
-}
-nav li a{
-    font-size: 110%;
-    font-weight: 500;
-    text-transform: uppercase; 
-    color:rgb(9,119,77);
-}
-
