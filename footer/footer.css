@@ -3,6 +3,9 @@ body
     background-color: white;
     font-family: 'Poppins', sans-serif; 
 }
+a{
+    text-decoration: none;
+}
 .sponsor
 {   
     display: flex;
@@ -12,10 +15,10 @@ body
     max-width: 72%;
 }
 #vit{   
-    max-width: 57%;
+    max-width: 59%;
 }
 #nu{
-    max-width: 90%;
+    max-width: 95%;
 }
 .prim
 {   text-align: center;
@@ -24,6 +27,7 @@ body
     margin: 0 auto;  
 }
 .prim a img{
+    border-radius: 100%;
     width: 45%;
     padding: .5%;
     border: solid 5px  gray;
@@ -37,6 +41,7 @@ body
     justify-content: center;
 }
 .secon a img{
+    border-radius: 100%;
     max-width: 20%;
     padding: .5%;
     border: solid 5px  gray;
@@ -66,7 +71,8 @@ body{
     max-width:60% ;
 }
 .col h4
-    {
+{
+     font-weight: bold;
      padding:3%;
      color:#EF3C43;
      margin-left: 25%;
@@ -107,7 +113,6 @@ body{
     #knu, #vit, #nu{
         margin: 0 auto;
         max-width: 40%;
-        padding: 3%;
     }   
     .col p{
         text-align: center;
@@ -122,9 +127,6 @@ body{
         display: flex;
         flex-direction: column;    
         padding: 2%;        
-    }
-    .col1{
-        font-size: larger;
     }
     #pl{
         width: 22rem;
@@ -154,10 +156,6 @@ body{
 }
 .col h4:hover{
     color: goldenrod;
-}
-.col h2:hover{
-    color: goldenrod;
-    cursor: pointer;
 }
 .ct{
     margin: 0 20px;
