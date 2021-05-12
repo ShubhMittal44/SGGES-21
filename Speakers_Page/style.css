@@ -324,10 +324,10 @@ div.card-text{
       max-width: 72%;
   }
   #vit{   
-      max-width: 57%;
+      max-width: 59%;
   }
   #nu{
-      max-width: 90%;
+      max-width: 95%;
   }
   .prim
   {   text-align: center;
@@ -336,23 +336,25 @@ div.card-text{
       margin: 0 auto;  
   }
   .prim a img{
-      width: 45%;
-      padding: .5%;
-      border: solid 5px  gray;
-  }
-  .secon
-  {   text-align: center;
-      display: flex;
-      flex-direction: row;
-      margin: 0 10%;
-      padding: 3%;
-      justify-content: center;
-  }
-  .secon a img{
-      max-width: 20%;
-      padding: .5%;
-      border: solid 5px  gray;
-  }
+    border-radius: 100%;
+    width: 45%;
+    padding: .5%;
+    border: solid 5px  gray;
+}
+.secon
+{   text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+    padding: 3%;
+    justify-content: center;
+}
+.secon a img{
+    border-radius: 100%;
+    max-width: 20%;
+    padding: .5%;
+    border: solid 5px  gray;
+}
   body{
       background-color:#F0F0F0;
       font-family: 'Poppins', sans-serif;
@@ -376,7 +378,8 @@ div.card-text{
       max-width:60% ;
   }
   .col h4
-      {
+  {
+       font-weight: bold;
        padding:3%;
        color:#EF3C43;
        margin-left: 25%;
@@ -387,69 +390,65 @@ div.card-text{
       .prim img
       {
           margin: 0 auto;
-          max-width: 29%;
+          max-width: 30%;
           padding: 3%;
       }
   }
   
   @media all and (max-width:900px)
-  {
-      .prim{
-          text-align: center;
-          display: flex;
-          flex-direction: column;    
-          margin: 0;
-      }
-      .prim img
-      {
-          margin: 0 auto;
-          max-width: 40%;
-          padding: 3%;
-      }
-      .secon 
-      {  
-          text-align: center;
-          display: flex;
-          margin: 0;
-          flex-direction: column;      
-      }
-  
-      #knu, #vit, #nu{
-          margin: 0 auto;
-          max-width: 40%;
-          padding: 3%;
-      }   
-      .col p{
-          text-align: center;
-      }
-      .col h4{
-          padding:3%;
-          color:#EF3C43;
-          margin-left: 5%;     
-      }
-      .one{   
-          align-items: center;    
-          display: flex;
-          flex-direction: column;    
-          padding: 2%;        
-      }
-      .col1{
-          font-size: larger;
-      }
-      #pl{
-          width: 22rem;
-      }
-      #foot{
-          text-align: center;
-          display: flex;
-          padding: 1%;
-          flex-direction: column;
-          justify-content: center;
-      }
-      #logo img{
-          max-width: 55%;    
-      }
-  }
+{
+    .prim{
+        text-align: center;
+        display: flex;
+        flex-direction: column;    
+        margin: 0;
+    }
+    .prim img
+    {
+        margin: 0 auto;
+        max-width: 40%;
+        padding: 3%;
+    }
+    .secon 
+    {  
+        text-align: center;
+        display: flex;
+        margin: 0;
+        flex-direction: column;      
+    }
+
+    #knu, #vit, #nu{
+        margin: 0 auto;
+        max-width: 40%;
+    }   
+    .col p{
+        text-align: center;
+    }
+    .col h4{
+        padding:3%;
+        color:#EF3C43;
+        margin-left: 5%;     
+    }
+    .one{   
+        align-items: center;    
+        display: flex;
+        flex-direction: column;    
+        padding: 2%;        
+    }
+    #pl{
+        width: 22rem;
+    }
+    #foot{
+        text-align: center;
+        display: flex;
+        padding: 1%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #logo img{
+        max-width: 55%;    
+    }
+}
       
   
   .prim a img:hover{
@@ -464,10 +463,6 @@ div.card-text{
   }
   .col h4:hover{
       color: goldenrod;
-  }
-  .col h2:hover{
-      color: goldenrod;
-      cursor: pointer;
   }
   .ct{
       margin: 0 20px;
