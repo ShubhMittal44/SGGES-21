@@ -18,10 +18,9 @@
     }
 }
 
-@media (max-width: 567px) {
-    
-    .section-intro img{
-        width: 50% !important;
+@media (max-width: 567px){
+    .section-intro img {
+        width: 40% !important;
     }
 }
 
@@ -371,8 +370,3 @@ button:focus {
     border-radius: 5px;
 }
 
-@media (max-width: 567px){
-    .section-intro img {
-        width: 40% !important;
-    }
-}

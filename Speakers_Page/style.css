@@ -531,12 +531,18 @@ div.card-text{
     margin-left: auto;
 }
 
-.section-intro h2 {
+.section-intro .primary-text1 {
     font-size: 26px;
 }
 
 @media (min-width: 600px) {
-    .section-intro h2 {
+    .section-intro .primary-text1 {
         font-size: 36px;
+    }
+}
+
+@media (max-width: 567px){
+    .section-intro img {
+        width: 50% !important;
     }
 }
