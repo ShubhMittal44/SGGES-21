@@ -17,19 +17,4 @@ function myFunction2()
     document.querySelector("#pop").innerHTML="<p><b>Dr. Razia Sultana W.</b><br> Associate professor<br>Department of Energy & Power Electronics School of Electrical Engineering<br>VIT Vellore, India<br> E-Mail: wraziasultana@vit.ac.in <br>Mobile:+91 9943295041</p><br>";
 }
 
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
-  }
-}
-
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  }
   

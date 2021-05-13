@@ -6,6 +6,26 @@ body
     font-family: 'Poppins', sans-serif;  
 }
 
+/***** Go To Top Button Styles *****/
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}  
+
+#myBtn:hover {
+      fill: #000000;
+      background-color: #faf8f8;
+      padding: 0.1rem;
+}
+
 /*********** Navbar & Photo Carousel Styles ************/
 
 .navbar-light .nav-link{
