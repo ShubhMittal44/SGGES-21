@@ -222,8 +222,7 @@ td, tfoot, th, thead, tr {
         width: 100%;       
     }
     td, tfoot, th, thead, tr {
-        padding: 3%;
-        font-size: 13px;
+        font-size: 11px;
     }
     .section-margin{
         margin: 5px;
