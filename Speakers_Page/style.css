@@ -522,3 +522,21 @@ div.card-text{
       background-color: #faf8f8;
       padding: 0.1rem;
 }
+
+/*********** Heading Styles ************/
+
+.section-intro {
+    max-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-intro h2 {
+    font-size: 26px;
+}
+
+@media (min-width: 600px) {
+    .section-intro h2 {
+        font-size: 36px;
+    }
+}
