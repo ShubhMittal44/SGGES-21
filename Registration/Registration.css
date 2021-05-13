@@ -210,7 +210,7 @@ td, tfoot, th, thead, tr {
 
 @media (max-width: 767px){
     #dates{    
-        width: 100%;       
+        width: 90%;       
     }
     .section-margin{
         margin: 5px;
@@ -219,7 +219,7 @@ td, tfoot, th, thead, tr {
 
 @media (max-width: 567px) {
     #dates{    
-        width: 100%;       
+        width: 90%;       
     }
     td, tfoot, th, thead, tr {
         font-size: 11px;
