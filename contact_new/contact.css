@@ -45,7 +45,7 @@ body
     background-color: #141A2E;   
     border-bottom: 2px solid #EF3C43; 
 }
-@media (max-width: 350px){
+@media (max-width: 360px){
     .container-fluid{
         padding: 0 10px 0 0; 
     }
@@ -160,7 +160,7 @@ div.card-text{
         height: 400px;     
     }
     .first{    
-        padding: 7% 0;    
+        padding: 3% 0;    
     }
     #navbarSupportedContent{
         margin-left: 0;

@@ -31,13 +31,20 @@ a{
 }
 .logo img {
     height: 65px;
-    padding: 8px 0;
+    padding: 7px 0;
 }
 .container-fluid{
     background-color: #141A2E;   
     border-bottom: 2px solid #EF3C43; 
 }
-
+@media (max-width: 350px){
+    .container-fluid{
+        padding: 0 10px 0 0; 
+    }
+    .xsd{
+        display: none;
+    }
+}
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-collapse {
         justify-content: flex-end;
@@ -108,7 +115,7 @@ nav li a:hover{
 
 .first{
     text-align: center; 
-    padding: 3% 0;
+    padding: 11% 0;
 }
 
 .first > h1{
@@ -123,7 +130,7 @@ nav li a:hover{
 }
 
 .card .card-img{
-    height: 500px;
+    height: 600px;
     width: auto;
 }
 
@@ -134,14 +141,14 @@ nav li a:hover{
 div.card-title{
     color:rgb(247, 241, 243);
     font-weight: 100;
-    font-size: 20;
-    margin-top: 0;
+    font-size: 20px;
+    margin-top: 5px;
 }
 
 div.card-text{
     color:rgb(247, 241, 243);
     font-weight: 850;
-    font-size: 30;
+    font-size: 30px;
     margin-top: 0;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
@@ -164,7 +171,7 @@ div.card-text{
         height: 400px;     
     }
     .first{    
-        padding: 7% 0;    
+        padding: 3% 0;    
     }
     #navbarSupportedContent{
         margin-left: 0;
@@ -187,11 +194,11 @@ div.card-text{
 
     div.card-title{
         font-weight: 300;
-        font-size: 14;
+        font-size: 14px;
     }    
     div.card-text{
         font-weight: 600;
-        font-size: 18;
+        font-size: 18px;
     }
     .card-img-overlay{
         padding: 0.4rem;
