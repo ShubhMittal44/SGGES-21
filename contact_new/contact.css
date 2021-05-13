@@ -39,13 +39,20 @@ body
 }
 .logo img {
     height: 65px;
-    padding: 8px 0;
+    padding: 7px 0;
 }
 .container-fluid{
     background-color: #141A2E;   
     border-bottom: 2px solid #EF3C43; 
 }
-
+@media (max-width: 350px){
+    .container-fluid{
+        padding: 0 10px 0 0; 
+    }
+    .xsd{
+        display: none;
+    }
+}
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-collapse {
         justify-content: flex-end;
@@ -124,7 +131,7 @@ div.card-title{
     color:rgb(247, 241, 243);
     font-weight: 100;
     font-size: 20px;
-    margin-top: 0;
+    margin-top: 5px;
 }
 
 div.card-text{
@@ -190,22 +197,10 @@ div.card-text{
     }
 }
        
-.contact img{
-        margin: 0 44%;
-        width: 12%;
-}     
-@media (max-width: 567px) {    
-        .contact img{
-            width: 40% !important;
-            margin: 0 30%;
-        }
-}
-
-.contact h1{
-        max-width: 640px;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
+.section-intro {
+    max-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
 }
 a{
     text-decoration: none !important;
@@ -225,4 +220,22 @@ a{
 ::-webkit-scrollbar-thumb {
     background: #141A2E;
     border-radius: 5px;
+}
+
+.section-intro img {
+    width: 25%;
+}
+
+@media (max-width: 567px){
+    .section-intro img {
+        width: 28% !important;
+    }
+}
+.col .card{
+    margin: 2%;
+}
+@media (max-width: 380px){
+    .col .card{
+        max-width: 280px;
+    }
 }
