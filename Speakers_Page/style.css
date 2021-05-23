@@ -226,192 +226,193 @@ div.card-text{
   position: relative;
   border: 2px solid rgb(207, 23, 63);
   border-radius: 8px;
+  height: 92%;
 }
   
-  .our-team .picture {
-    display: inline-block;
-    height: 130px;
-    width: 130px;
-    margin-bottom: 50px;
-    z-index: 1;
-    position: relative;
-  }
-  
-  .our-team .picture::before {
-    content: "";
-    width: 100%;
-    height: 0;
-    border-radius: 50%;
-    background-color: black;
-    position: absolute;
-    bottom: 135%;
-    right: 0;
-    left: 0;
-    opacity: 0.9;
-    transform: scale(3);
-    transition: all 0.3s linear 0s;
-  }
-  
-  .our-team:hover .picture::before {
-    height: 100%;
-  }
-  
-  .our-team .picture::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: black;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-  
-  .our-team .picture img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    transform: scale(1);
-    transition: all 0.9s ease 0s;
-  }
-  
-  .our-team:hover .picture img {
-    box-shadow: 0 0 0 14px #070707;
-    transform: scale(0.7);
-  }
-  
-  .our-team .title {
-    display: block;
-    font-size: 15px;
-    color: #4e5052;
-    text-transform: capitalize;
-  }
-  
-  .our-team .social {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    background-color: #030303;
-    position: absolute;
-    bottom: -100px;
-    left: 0;
-    transition: all 0.5s ease 0s;
-  }
-  
-  .our-team:hover .social {
-    bottom: 0;
-  }
-  
-  .our-team .social li {
-    display: inline-block;
-  }
-  
-  .our-team .social li a {
-    display: block;
-    padding: 10px;
-    font-size: 17px;
-    color: white;
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-  }
-  
-  .our-team .social li a:hover {
-    color: #1369ce;
-    background-color: black;
-  }
-  .name{
-    color: rgb(9, 37, 121);
-    font-weight: 800;
-  }
-  .country{
-    color: rgb(27, 26, 26);
-    font-weight: 600;
-  }
+.our-team .picture {
+display: inline-block;
+height: 130px;
+width: 130px;
+margin-bottom: 50px;
+z-index: 1;
+position: relative;
+}
+
+.our-team .picture::before {
+content: "";
+width: 100%;
+height: 0;
+border-radius: 50%;
+background-color: black;
+position: absolute;
+bottom: 135%;
+right: 0;
+left: 0;
+opacity: 0.9;
+transform: scale(3);
+transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+height: 100%;
+}
+
+.our-team .picture::after {
+content: "";
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background-color: black;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+
+.our-team .picture img {
+width: 100%;
+height: auto;
+border-radius: 50%;
+transform: scale(1);
+transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture img {
+box-shadow: 0 0 0 14px #070707;
+transform: scale(0.7);
+}
+
+.our-team .title {
+display: block;
+font-size: 15px;
+color: #4e5052;
+text-transform: capitalize;
+}
+
+.our-team .social {
+width: 100%;
+padding: 0;
+margin: 0;
+background-color: #030303;
+position: absolute;
+bottom: -100px;
+left: 0;
+transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+bottom: 0;
+}
+
+.our-team .social li {
+display: inline-block;
+}
+
+.our-team .social li a {
+display: block;
+padding: 10px;
+font-size: 17px;
+color: white;
+transition: all 0.3s ease 0s;
+text-decoration: none;
+}
+
+.our-team .social li a:hover {
+color: #1369ce;
+background-color: black;
+}
+.name{
+color: rgb(9, 37, 121);
+font-weight: 800;
+}
+.country{
+color: rgb(27, 26, 26);
+font-weight: 600;
+}
 
 
 
-  .sponsor
-  {   
-      display: flex;
-      flex-direction: column;
-  }
-  #knu{
-      max-width: 72%;
-  }
-  #vit{   
-      max-width: 59%;
-  }
-  #nu{
-      max-width: 95%;
-  }
-  .prim
-  {   text-align: center;
-      flex-direction: row;
-      padding: 3%;
-      margin: 0 auto;  
-  }
-  .prim a img{
-    border-radius: 100%;
-    width: 45%;
-    padding: .5%;
-    border: solid 5px  gray;
+.sponsor
+{   
+    display: flex;
+    flex-direction: column;
+}
+#knu{
+    max-width: 72%;
+}
+#vit{   
+    max-width: 59%;
+}
+#nu{
+    max-width: 95%;
+}
+.prim
+{   text-align: center;
+    flex-direction: row;
+    padding: 3%;
+    margin: 0 auto;  
+}
+.prim a img{
+border-radius: 100%;
+width: 45%;
+padding: .5%;
+border: solid 5px  gray;
 }
 .secon
 {   text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin: 0 10%;
-    padding: 3%;
-    justify-content: center;
+display: flex;
+flex-direction: row;
+margin: 0 10%;
+padding: 3%;
+justify-content: center;
 }
 .secon a img{
-    border-radius: 100%;
-    max-width: 20%;
-    padding: .5%;
-    border: solid 5px  gray;
+border-radius: 100%;
+max-width: 20%;
+padding: .5%;
+border: solid 5px  gray;
 }
-  body{
-      background-color:#F0F0F0;
-      font-family: 'Poppins', sans-serif;
-  }
-  .one
-  {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      padding: 2%;
-  }
-  #pl{
-      width: 22rem;
-      background-color: #F5F5F5;
-      border:solid .1rem #EF3C43;
-  }
-  #pl:hover{
-      transform: scale(1.05);
-  }
-  #logo img{
-      max-width:60% ;
-  }
-  .col h4
-  {
-       font-weight: bold;
-       padding:3%;
-       color:#EF3C43;
-       margin-left: 25%;
-       padding-top: 10% ;
-  }
+body{
+    background-color:#F0F0F0;
+    font-family: 'Poppins', sans-serif;
+}
+.one
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+#pl{
+    width: 22rem;
+    background-color: #F5F5F5;
+    border:solid .1rem #EF3C43;
+}
+#pl:hover{
+    transform: scale(1.05);
+}
+#logo img{
+    max-width:60% ;
+}
+.col h4
+{
+    font-weight: bold;
+    padding:3%;
+    color:#EF3C43;
+    margin-left: 25%;
+    padding-top: 10% ;
+}
+
+@media (max-width: 1199px){
+    .prim img
+    {
+        margin: 0 auto;
+        max-width: 30%;
+        padding: 3%;
+    }
+}
   
-  @media (max-width: 1199px){
-      .prim img
-      {
-          margin: 0 auto;
-          max-width: 30%;
-          padding: 3%;
-      }
-  }
-  
-  @media all and (max-width:900px)
+@media all and (max-width:900px)
 {
     .prim{
         text-align: center;
@@ -467,27 +468,27 @@ div.card-text{
 }
       
   
-  .prim a img:hover{
-      transform:scale(1.05);
-      box-shadow: 5px 10px 18px #888888;
-      transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
-  }
-  .secon a img:hover{
-      transform:scale(1.05);
-      box-shadow: 5px 10px 18px #888888;
-      transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
-  }
-  .col h4:hover{
-      color: goldenrod;
-  }
-  .ct{
-      margin: 0 20px;
-  }
-  .ct:hover{
-      fill: goldenrod;
-  }
+.prim a img:hover{
+    transform:scale(1.05);
+    box-shadow: 5px 10px 18px #888888;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
+}
+.secon a img:hover{
+    transform:scale(1.05);
+    box-shadow: 5px 10px 18px #888888;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
+}
+.col h4:hover{
+    color: goldenrod;
+}
+.ct{
+    margin: 0 20px;
+}
+.ct:hover{
+    fill: goldenrod;
+}
 
-  /*********** Scrollbar Styles ************/
+/*********** Scrollbar Styles ************/
 
 ::-webkit-scrollbar {
     width: 12px;
